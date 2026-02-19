@@ -43,7 +43,7 @@ header {
 /* --- Encabezados (Verde Empresa) --- */
 /* Agrupamos todos los niveles para que hereden el color verde */
 h2, h3, h4, h5 {
-    color: #2e7d32; 
+    color: #ee4242; 
     border-bottom: 2px solid #FFD700;
     display: inline-block;
     padding-bottom: 5px;
