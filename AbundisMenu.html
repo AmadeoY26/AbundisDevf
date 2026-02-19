@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!---Especificacion de idioma para el lenguaje, util para el navegador--->
+<!---en = ingles, es = espanol--->
+<html lang="es">
+
+<head>
+    <!---Configuraciones meta--->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Título de la pagina--->
+    <title>Menu - Señor de los elotes</title>
+    <!---Descripcion de la pagina--->
+    <meta name = "Menu del señor de los elotes" content = "Informacion del menu y productos del Señor de los elotes">
+    <!---Link para archivo CSS--->
+    <link rel="stylesheet" href="Abundis_menu_css.css">
+    <!---Link para archivo javascript--->
+    <script src="Abundis_menu_java.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <!--Logo y nombre de la empresa************************************-->
+        <div class="logo-contenedor">
+            <img src="https://i.postimg.cc/D0Dj2Pzz/IMG-20260218-WA0012.jpg" alt="Logo El Señor de los Elotes" id="logo-principal">
+            <h1 id = "bienvenida" style="text-align: center;">El señor de los elotes</h1>
+        </div>
+        <br>
+    </header>
+    <main>
+        <!--Bienvenida a la pagina web, informacion de lo que contiene**********************-->
+        <section>
+            <p style="text-align: center;">Bienvenido al menu de <strong>El señor de los elotes</strong>
+             , tomate tu tiempo para visualizar los diferentes platillos que tenemos.</p>
+        </section>
+        <br>
+        <!--Menu de navegacion superior******************************-->
+        <section class="centralizado">
+            <h2 id="navegacionSuperior" style="text-align: center;">Menu de navegación</h2>
+            <nav style="text-align: center;" class="nav-estilo">
+                <a href="#menu">Menu</a> 
+                <a href="#contactos">Contactos</a>
+            </nav>
+        </section>
+        <!--Encierro en article, contendrá todo el menu del señor de los elotes****************************-->
+        <article class="section-centralizada">
+            <h2 id="menu" style="text-align: center;">Menu</h2>
+            <!--Primera seccion, Platillos de elote complicados*****************************+-->
+            <section>
+                <!---->
+            </section>
+            <br>
+            <!--Segunda seccion, Platillos de elote sencillos*********************************+-->
+            <section>
+                <!---->
+            </section>
+        </article>
+        <br>
+        <!--Tercera seccion, pequeña, dedicada a los links para aplicacion de comida a domicilio y telefonos de contactos******-->
+        <section class="section-centralizada">
+            <h3 id="contactos" style="text-align: center;">Contactos</h3><br>
+            <!--IA, la tabla debe ser atractiva visualmente y de color rojo con dorado, debe estar centralizada-->
+            <table>
+                <tr>
+                    <th>Local</th> <th>Numero de pedidos</th> <th>Enlace a Rappi</th>
+                </tr>
+                <tr>
+                    <td>Local 1</td> <td>Numero 1</td> <td>Enlace a rappi 1</td>
+                </tr>
+                <tr>
+                    <td>Local 2</td> <td>Numero 2</td> <td>Enlace a rappi 2</td>
+                </tr>
+                <tr>
+                    <td>Local 3</td> <td>Numero 3</td> <td>Enlace a rappi 3</td>
+                </tr>
+            </table>
+        </section>
+        <br>
+    </main>
+    <footer>
+        <!--Primer aside, aqui va el menu de navegacion inferior*****************************************-->
+        <aside class="centralizado">
+            <h4 id="navegacionInferior" style="text-align: center;">Menu de navegación</h4><br>
+            <nav style="text-align: center;" class="nav-estilo">
+                <a href="#menu">Menu</a>
+                <a href="#contactos">Contactos</a>
+            </nav>    
+        </aside>
+    </footer>
+</body>
+</html>

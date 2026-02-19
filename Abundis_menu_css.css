@@ -1,4 +1,3 @@
-/* --- Configuración Global --- */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     line-height: 1.6;
@@ -33,7 +32,6 @@ header {
     border-color: #ffffff;
 }
 
-
 #bienvenida {
     color: #FFD700; /* Dorado */
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
@@ -48,6 +46,7 @@ h2, h3, h4, h5 {
     display: inline-block;
     padding-bottom: 5px;
 }
+
 
 /* --- Navegación (Superior e Inferior) --- */
 .nav-estilo {
@@ -86,6 +85,12 @@ h2, h3, h4, h5 {
     width: 80px;
 }
 
+/* --- Centrado de Encabezados --- */
+.section-centralizada {
+    text-align: center; /* Esto centra el h2/h3 que es inline-block */
+    margin-bottom: 30px;
+}
+
 /* --- Tablas --- */
 table {
     width: 100%;
@@ -97,7 +102,7 @@ table {
 
 th {
     background-color: #2e7d32;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 12px;
 }
 
@@ -105,67 +110,4 @@ td {
     border: 1px solid #ece50d;
     padding: 10px;
     text-align: center;
-}
-
-/* --- Segundo prompt --- */
-
-/* --- Centrado de Encabezados --- */
-.section-centralizada {
-    text-align: center; /* Esto centra el h2/h3 que es inline-block */
-    margin-bottom: 30px;
-}
-
-/* --- Mejora de Formularios --- */
-.form-elotero {
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    max-width: 500px;
-    margin: 20px auto;
-    border: 2px solid #2e7d32;
-}
-
-.form-elotero label {
-    font-weight: bold;
-    color: #2e7d32;
-    display: block;
-    margin-bottom: 8px;
-}
-
-.form-elotero input[type="text"], 
-.form-elotero select {
-    width: 90%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-family: inherit;
-    transition: all 0.3s ease; /* Transición suave para el foco */
-}
-
-/* Animación cuando haces clic en un cuadro de texto */
-.form-elotero input[type="text"]:focus, 
-.form-elotero select:focus {
-    outline: none;
-    border-color: #FFD700;
-    box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
-    transform: scale(1.02); /* Efecto sutil de crecimiento */
-}
-
-/* Botón de envío */
-.btn-enviar {
-    background-color: #2e7d32;
-    color: white;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 25px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s, transform 0.2s;
-}
-
-.btn-enviar:hover {
-    background-color: #1b5e20;
-    transform: translateY(-3px); /* Pequeño salto al pasar el mouse */
 }
